@@ -1,14 +1,38 @@
 .user-form {
+    background-color: rgb(242, 242, 242);
+    border-radius: 15px;
+
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: left;
+    min-width: 30vw;
     margin-top: 20px;
     padding: 20px;
+    font-size: medium;
 }
 
 .form-label {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    column-gap: 20px;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-label input {
+    border-style: solid;
+    border-radius: 5px;
+    border-width: thin;
+    border-color: rgb(184, 184, 184);
+}
+
+.form-footer {
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    padding: 3px;
+}
+
+.form-footer a {
+    height: fit-content;
+    font-weight: 500;
 }

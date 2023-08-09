@@ -5,7 +5,7 @@ const Login = () => {
     return (
         <>
         <div id="login">
-            <h1>Login Page</h1>
+            <h1>Login</h1>
             <form className='user-form' action="">
                 <div className="mb-3 form-label">
                     <label htmlFor="email">Email</label>
@@ -18,8 +18,10 @@ const Login = () => {
                 <button className="btn btn-success">Login</button>
                 
                 <hr></hr>
-                <h6>Don't have an account?</h6>
-                <button className="btn btn-primary"> Create Account</button>
+                <div className="form-footer">
+                    <p className="footer-text">Don't have an account?</p>
+                    <a href=''>Sign Up</a>
+                </div>
             </form>
         </div>
         </>
