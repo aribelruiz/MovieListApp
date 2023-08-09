@@ -1,13 +1,13 @@
 import React from "react";
 
-// Shares CSS with Signup
-import './Login.scss';
+// Shares CSS as Login
+import '../Login/Login.scss';
 
-const Login = () => {
+const Signup = () => {
     return (
         <>
-        <div id="login">
-            <h1>Login</h1>
+        <div id="signup">
+            <h1>Sign Up</h1>
             <form className='user-form' action="">
                 <div className="mb-3 form-label">
                     <label htmlFor="email">Email</label>
@@ -17,12 +17,12 @@ const Login = () => {
                     <label htmlFor="password">Password</label>
                     <input type="password" placeholder="Enter Password"></input>
                 </div>
-                <button className="btn btn-success">Login</button>
+                <button className="btn btn-success">Sign Up</button>
                 
                 <hr></hr>
                 <div className="form-footer">
-                    <p className="footer-text">Don't have an account?</p>
-                    <a href='/signup'>Sign Up</a>
+                    <p className="footer-text">Already have an account?</p>
+                    <a href='/'>Login</a>
                 </div>
             </form>
         </div>
@@ -30,4 +30,4 @@ const Login = () => {
     );
 }
 
-export default Login;
+export default Signup;
