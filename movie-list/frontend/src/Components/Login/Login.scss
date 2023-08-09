@@ -1,0 +1,14 @@
+.user-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.form-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+}
