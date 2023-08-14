@@ -8,6 +8,10 @@
     align-items: center;    
 }
 
+.error-message {
+    color: rgb(255, 0, 0);
+}
+
 .user-form {
     background-color: rgb(242, 242, 242);
     border-radius: 15px;
@@ -33,6 +37,16 @@
     border-radius: 5px;
     border-width: thin;
     margin-top: 3px;
+}
+
+.form-label .input-reg {
+    border-color: rgb(184, 184, 184);
+    border-width: thin;
+}
+
+.form-label .input-error {
+    border-color: rgba(255, 0, 0, 0.375);
+    border-width: 2px;
 }
 
 .form-footer {
